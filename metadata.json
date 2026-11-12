@@ -1,0 +1,6 @@
+{
+  "name": "Multi-Agent Web UI Orchestrator",
+  "description": "Multi-agent orchestration platform using browser automation across ChatGPT, Claude, Grok, Gemini, and DeepSeek with semantic compression and debate pipelines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

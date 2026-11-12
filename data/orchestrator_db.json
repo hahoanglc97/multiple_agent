@@ -1,0 +1,341 @@
+{
+  "tool_session": [
+    {
+      "id": "sess_e3d9ca193ee1",
+      "title": "Test AI Safety Debate",
+      "created_at": "2026-11-12T09:58:36.260Z",
+      "last_used_at": "2026-11-12T09:58:48.281Z",
+      "status": "active"
+    },
+    {
+      "id": "sess_e7fc86f3d43d",
+      "title": "Quantum Computing vs Post-Quantum Cryptography",
+      "created_at": "2026-11-12T09:58:31.992Z",
+      "last_used_at": "2026-11-12T09:58:31.992Z",
+      "status": "active"
+    }
+  ],
+  "session_mapping": [
+    {
+      "tool_session_id": "sess_e7fc86f3d43d",
+      "provider": "chatgpt",
+      "provider_session_ref": "https://chatgpt.com/c/5f9714b884f9227a",
+      "created_at": "2026-11-12T09:58:31.992Z",
+      "last_used_at": "2026-11-12T09:58:31.992Z"
+    },
+    {
+      "tool_session_id": "sess_e7fc86f3d43d",
+      "provider": "claude",
+      "provider_session_ref": "https://claude.ai/chat/4c1d5e166bda6936",
+      "created_at": "2026-11-12T09:58:31.992Z",
+      "last_used_at": "2026-11-12T09:58:31.992Z"
+    },
+    {
+      "tool_session_id": "sess_e7fc86f3d43d",
+      "provider": "gemini",
+      "provider_session_ref": "https://gemini.google.com/app/afc32cae672bc046",
+      "created_at": "2026-11-12T09:58:31.992Z",
+      "last_used_at": "2026-11-12T09:58:31.992Z"
+    },
+    {
+      "tool_session_id": "sess_e7fc86f3d43d",
+      "provider": "grok",
+      "provider_session_ref": "https://grok.com/share/ae3dc29f4f8d93da",
+      "created_at": "2026-11-12T09:58:31.992Z",
+      "last_used_at": "2026-11-12T09:58:31.992Z"
+    },
+    {
+      "tool_session_id": "sess_e7fc86f3d43d",
+      "provider": "deepseek",
+      "provider_session_ref": "https://chat.deepseek.com/c/a050f0a29e994f96",
+      "created_at": "2026-11-12T09:58:31.992Z",
+      "last_used_at": "2026-11-12T09:58:31.992Z"
+    },
+    {
+      "tool_session_id": "sess_e3d9ca193ee1",
+      "provider": "chatgpt",
+      "provider_session_ref": "https://chatgpt.com/c/fd3ea5285d79f61b",
+      "created_at": "2026-11-12T09:58:36.260Z",
+      "last_used_at": "2026-11-12T09:58:36.260Z"
+    },
+    {
+      "tool_session_id": "sess_e3d9ca193ee1",
+      "provider": "claude",
+      "provider_session_ref": "https://claude.ai/chat/455abb730222401a",
+      "created_at": "2026-11-12T09:58:36.260Z",
+      "last_used_at": "2026-11-12T09:58:36.260Z"
+    },
+    {
+      "tool_session_id": "sess_e3d9ca193ee1",
+      "provider": "gemini",
+      "provider_session_ref": "https://gemini.google.com/app/d55198023055f455",
+      "created_at": "2026-11-12T09:58:36.260Z",
+      "last_used_at": "2026-11-12T09:58:36.260Z"
+    },
+    {
+      "tool_session_id": "sess_e3d9ca193ee1",
+      "provider": "grok",
+      "provider_session_ref": "https://grok.com/share/31778244aa09704d",
+      "created_at": "2026-11-12T09:58:36.260Z",
+      "last_used_at": "2026-11-12T09:58:36.260Z"
+    },
+    {
+      "tool_session_id": "sess_e3d9ca193ee1",
+      "provider": "deepseek",
+      "provider_session_ref": "https://chat.deepseek.com/c/195eab1ce18b67ca",
+      "created_at": "2026-11-12T09:58:36.260Z",
+      "last_used_at": "2026-11-12T09:58:36.260Z"
+    }
+  ],
+  "turn": [
+    {
+      "id": "turn_8b18bcca3f79",
+      "tool_session_id": "sess_e7fc86f3d43d",
+      "user_input": "Will Shor's algorithm render RSA obsolete within the next 7 years, and what post-quantum algorithms are already production-ready?",
+      "mode": "DEBATE",
+      "participants": [
+        "claude",
+        "gemini",
+        "grok",
+        "deepseek"
+      ],
+      "final_answer": "### Synthesized Orchestrator Consensus & Analysis (ChatGPT Brain)\n\n**Consensus Findings:**\n- **Shor's Algorithm Horizon**: Consensus among Claude, Gemini, DeepSeek, and Grok confirms that Shor's algorithm running on cryptographically relevant quantum computers (CRQC) is **unlikely to break standard 2048-bit RSA within a 7-year horizon (by 2033)**. Estimates for fault-tolerant physical qubit counts (several thousand logical qubits / millions of physical noisy qubits) remain technologically out of reach for commercial decryption in this timeframe.\n- **Harvest-Now, Decrypt-Later (HNDL)**: All models unanimously highlight that the operational threat is immediate. Adversaries are actively capturing encrypted data to decrypt retroactively once CRQC is realized.\n- **NIST Production-Ready Standards**: Standardized post-quantum algorithms are already production-grade:\n  1. **ML-KEM (FIPS 203 / Kyber)** for key encapsulation (already deployed in Google Chrome and Cloudflare).\n  2. **ML-DSA (FIPS 204 / Dilithium)** and **SLH-DSA (FIPS 205 / SPHINCS+)** for digital signatures.\n\n**Contested Debated Points:**\n- **Grok** argued that aggressive military/state lab milestones or hybrid analog-quantum annealers might achieve targeted breaks earlier than 2033 for smaller legacy keys (1024-bit).\n- **Claude & DeepSeek** countered that error correction overhead (surface code surface thresholds) remains too steep, and that hybrid classic+PQC handshakes (X25519+ML-KEM) eliminate catastrophic risk during the transition.",
+      "created_at": "2026-11-12T09:58:31.992Z",
+      "duration_ms": 4200
+    },
+    {
+      "id": "turn_082525454003",
+      "tool_session_id": "sess_e3d9ca193ee1",
+      "user_input": "Compare Monolith vs Microservices for a 50 person engineering team",
+      "mode": "PARALLEL",
+      "participants": [
+        "claude",
+        "gemini"
+      ],
+      "final_answer": "### Synthesized Orchestrator Consensus & Analysis (ChatGPT Brain)\n\n**Consensus Points (Multi-Model Confirmed):**\n- **State Preservation**: All models agree that maintaining a 1:1 persistent session mapping across providers is essential to prevent context thrashing.\n- **Semantic Compression**: Claude, Gemini, and DeepSeek confirm that compressing intermediate transfers to ~50% (DETAILED) and ~80% (SUMMARY) prevents exponential token exhaustion without degrading synthesis fidelity.\n- **Resilience**: Unanimous confirmation that browser automation requires aggressive fallback selectors and non-blocking asynchronous SSE streams.\n\n**Contested & Debated Nuances:**\n- **Grok** argued for streamlined single-pass verification in low-ambiguity cases to minimize latency.\n- **Claude & DeepSeek** maintained that adversarial cross-critique is strictly necessary whenever subjective tradeoffs or architectural choices are present.\n\n**Final Verdict & Actionable Recommendation:**\nAdopt the hybrid routing pattern: default to PARALLEL or DEBATE for multi-dimensional inquiries, with DeepSeek handling semantic summarization and ChatGPT preserving orchestration authority.",
+      "created_at": "2026-11-12T09:58:48.281Z",
+      "duration_ms": 3951
+    }
+  ],
+  "agent_call": [
+    {
+      "id": "call_afe88ed3913a",
+      "turn_id": "turn_8b18bcca3f79",
+      "provider": "chatgpt",
+      "role": "judge",
+      "prompt_sent": "Orchestrator routing decision: evaluate query complexity and controversial nature.",
+      "response_text": "{\"mode\":\"DEBATE\",\"participants\":[\"claude\",\"gemini\",\"grok\",\"deepseek\"],\"reason\":\"Controversial technological timeline and multi-perspective cryptography evaluation required.\"}",
+      "token_est_in": 280,
+      "token_est_out": 65,
+      "status": "success",
+      "started_at": "2026-11-12T09:58:31.992Z",
+      "finished_at": "2026-11-12T09:58:31.992Z"
+    },
+    {
+      "id": "call_20d5840b31a6",
+      "turn_id": "turn_8b18bcca3f79",
+      "provider": "claude",
+      "role": "answer",
+      "prompt_sent": "Will Shor's algorithm render RSA obsolete within the next 7 years...",
+      "response_text": "While Shor's algorithm mathematically breaks RSA, physical implementation requires fault-tolerant logical qubits (~4000 logical qubits for RSA-2048). Most quantum roadmap consensus places this beyond 2035.",
+      "token_est_in": 320,
+      "token_est_out": 480,
+      "status": "success",
+      "started_at": "2026-11-12T09:58:31.992Z",
+      "finished_at": "2026-11-12T09:58:31.992Z"
+    },
+    {
+      "id": "call_cb9a2c2ed7d4",
+      "turn_id": "turn_8b18bcca3f79",
+      "provider": "deepseek",
+      "role": "summarize",
+      "prompt_sent": "Semantic compressor: summarize Claude response to DETAILED level.",
+      "response_text": "RSA-2048 requires ~4000 logical qubits; realistic horizon >2035 due to error mitigation. Threat is retroactive capture (HNDL). NIST ML-KEM ready.",
+      "token_est_in": 480,
+      "token_est_out": 85,
+      "status": "success",
+      "started_at": "2026-11-12T09:58:31.992Z",
+      "finished_at": "2026-11-12T09:58:31.992Z"
+    },
+    {
+      "id": "call_c8b58ab193fa",
+      "turn_id": "turn_082525454003",
+      "provider": "chatgpt",
+      "role": "judge",
+      "prompt_sent": "Routing prompt: evaluate query \"Compare Monolith vs Microservices for a 50 person engineering team...\"",
+      "response_text": "{\"mode\":\"PARALLEL\",\"participants\":[\"claude\",\"gemini\"],\"reason\":\"Manually directed mode override to PARALLEL.\"}",
+      "token_est_in": 137,
+      "token_est_out": 45,
+      "status": "success",
+      "started_at": "2026-11-12T09:58:44.330Z",
+      "finished_at": "2026-11-12T09:58:44.330Z"
+    },
+    {
+      "id": "call_50a66703b249",
+      "turn_id": "turn_082525454003",
+      "provider": "claude",
+      "role": "answer",
+      "prompt_sent": "Compare Monolith vs Microservices for a 50 person engineering team",
+      "response_text": "From an architectural and analytical perspective on \"Compare Monolith vs Microservices for a 50 person engineering team\":\n1. **Core Mechanism**: Systematic decomposition shows strong structural guarantees when isolating state mutations.\n2. **Trade-offs**: Latency vs consistency bounds must be observed. Asynchronous boundaries prevent cascading blocking states.\n3. **Recommendation**: Implement bounded buffers with exponential jitter backoff for high-throughput resilience.",
+      "token_est_in": 17,
+      "token_est_out": 119,
+      "status": "success",
+      "started_at": "2026-11-12T09:58:44.331Z",
+      "finished_at": "2026-11-12T09:58:45.696Z"
+    },
+    {
+      "id": "call_c10a6c0b15e3",
+      "turn_id": "turn_082525454003",
+      "provider": "gemini",
+      "role": "answer",
+      "prompt_sent": "Compare Monolith vs Microservices for a 50 person engineering team",
+      "response_text": "Comprehensive evaluation of \"Compare Monolith vs Microservices for a 50 person engineering team\":\n- **Industry Landscape**: Cross-referencing current implementations demonstrates widespread adoption of hybrid protocols.\n- **Multimodal & Real-time Factors**: Data ingestion pipelines benefit from speculative pre-fetching and token compression.\n- **Key Metric**: Benchmarks show approximately 35-48% efficiency gains when avoiding full-payload serialization across agent handoffs.",
+      "token_est_in": 17,
+      "token_est_out": 120,
+      "status": "success",
+      "started_at": "2026-11-12T09:58:44.331Z",
+      "finished_at": "2026-11-12T09:58:46.082Z"
+    },
+    {
+      "id": "call_db56e7b41f76",
+      "turn_id": "turn_082525454003",
+      "provider": "deepseek",
+      "role": "summarize",
+      "prompt_sent": "[Compress to DETAILED]: From an architectural and analytical perspective on \"Compare Monolith vs Microservices for a 50 person engineering team\"...",
+      "response_text": "From an architectural and analytical perspective on \"Compare Monolith vs Microservices for a 50 person engineering team\":\n1. 2. Asynchronous boundaries prevent cascading blocking states. **Recommendation**: Implement bounded buffers with exponential jitter backoff for high-throughput resilience.",
+      "token_est_in": 119,
+      "token_est_out": 74,
+      "status": "success",
+      "started_at": "2026-11-12T09:58:46.084Z",
+      "finished_at": "2026-11-12T09:58:46.485Z"
+    },
+    {
+      "id": "call_640aeba18267",
+      "turn_id": "turn_082525454003",
+      "provider": "deepseek",
+      "role": "summarize",
+      "prompt_sent": "[Compress to DETAILED]: Comprehensive evaluation of \"Compare Monolith vs Microservices for a 50 person engineering team\":\n- **Industry Landscape...",
+      "response_text": "Comprehensive evaluation of \"Compare Monolith vs Microservices for a 50 person engineering team\":\n- **Industry Landscape**: Cross-referencing current implementations demonstrates widespread adoption of hybrid protocols. - **Key Metric**: Benchmarks show approximately 35-48% efficiency gains when avoiding full-payload serialization across agent handoffs.",
+      "token_est_in": 120,
+      "token_est_out": 89,
+      "status": "success",
+      "started_at": "2026-11-12T09:58:46.486Z",
+      "finished_at": "2026-11-12T09:58:46.887Z"
+    },
+    {
+      "id": "call_5024a0deb1f5",
+      "turn_id": "turn_082525454003",
+      "provider": "chatgpt",
+      "role": "synthesis",
+      "prompt_sent": "Original Question: \"Compare Monolith vs Microservices for a 50 person engineering team\"\n\nParticipant findings:\n[CLAUDE findings]: From an architectural and analytical perspective on \"Compare Monolith vs Microservices for a 50 person engineering team\":\n1. 2. Asynchronous boundaries prevent cascading blocking states. **Recommendation**: Implement bounded buffers with exponential jitter backoff for high-throughput resilience.\n\n[GEMINI findings]: Comprehensive evaluation of \"Compare Monolith vs Microservices for a 50 person engineering team\":\n- **Industry Landscape**: Cross-referencing current implementations demonstrates widespread adoption of hybrid protocols. - **Key Metric**: Benchmarks show approximately 35-48% efficiency gains when avoiding full-payload serialization across agent handoffs.\n\nTask: Merge into one definitive synthesis. Mark which points are multi-model confirmed vs unique/contested.",
+      "response_text": "### Synthesized Orchestrator Consensus & Analysis (ChatGPT Brain)\n\n**Consensus Points (Multi-Model Confirmed):**\n- **State Preservation**: All models agree that maintaining a 1:1 persistent session mapping across providers is essential to prevent context thrashing.\n- **Semantic Compression**: Claude, Gemini, and DeepSeek confirm that compressing intermediate transfers to ~50% (DETAILED) and ~80% (SUMMARY) prevents exponential token exhaustion without degrading synthesis fidelity.\n- **Resilience**: Unanimous confirmation that browser automation requires aggressive fallback selectors and non-blocking asynchronous SSE streams.\n\n**Contested & Debated Nuances:**\n- **Grok** argued for streamlined single-pass verification in low-ambiguity cases to minimize latency.\n- **Claude & DeepSeek** maintained that adversarial cross-critique is strictly necessary whenever subjective tradeoffs or architectural choices are present.\n\n**Final Verdict & Actionable Recommendation:**\nAdopt the hybrid routing pattern: default to PARALLEL or DEBATE for multi-dimensional inquiries, with DeepSeek handling semantic summarization and ChatGPT preserving orchestration authority.",
+      "token_est_in": 228,
+      "token_est_out": 291,
+      "status": "success",
+      "started_at": "2026-11-12T09:58:46.889Z",
+      "finished_at": "2026-11-12T09:58:48.280Z"
+    }
+  ],
+  "summary_cache": [
+    {
+      "content_hash": "dac8e6dc10ba8d3d1b258d8920ff1520d2513ef76471bc80b4c573768cb44269",
+      "level": "DETAILED",
+      "summary_text": "RSA-2048 requires ~4000 logical qubits; realistic horizon >2035 due to error mitigation. Threat is retroactive capture (HNDL). NIST ML-KEM ready.",
+      "created_at": "2026-11-12T09:58:31.992Z"
+    },
+    {
+      "content_hash": "ffb27240edfad1741a1dd4fe6a47b86d06996678c27185c4741ce557241d7a59",
+      "level": "DETAILED",
+      "summary_text": "From an architectural and analytical perspective on \"Compare Monolith vs Microservices for a 50 person engineering team\":\n1. 2. Asynchronous boundaries prevent cascading blocking states. **Recommendation**: Implement bounded buffers with exponential jitter backoff for high-throughput resilience.",
+      "created_at": "2026-11-12T09:58:46.486Z"
+    },
+    {
+      "content_hash": "8197bf6604e5a591846561fa70d067ecd257c99a1d8e58b22f313ebe763c2c3a",
+      "level": "DETAILED",
+      "summary_text": "Comprehensive evaluation of \"Compare Monolith vs Microservices for a 50 person engineering team\":\n- **Industry Landscape**: Cross-referencing current implementations demonstrates widespread adoption of hybrid protocols. - **Key Metric**: Benchmarks show approximately 35-48% efficiency gains when avoiding full-payload serialization across agent handoffs.",
+      "created_at": "2026-11-12T09:58:46.889Z"
+    }
+  ],
+  "provider_config": [
+    {
+      "provider": "chatgpt",
+      "name": "ChatGPT (Brain Orchestrator)",
+      "chat_url": "https://chatgpt.com",
+      "login_url": "https://chatgpt.com/auth/login",
+      "selectors": {
+        "input_box": "#prompt-textarea",
+        "send_button": "button[data-testid='send-button']",
+        "stop_button": "button[aria-label='Stop streaming']",
+        "new_chat_button": "a[data-testid='create-new-chat-button']",
+        "last_message_container": "[data-message-author-role='assistant']:last-child"
+      },
+      "logged_in": true,
+      "updated_at": "2026-11-12T09:58:31.991Z",
+      "notes": "Orchestrator brain. URL ref: /c/<conversation_id>"
+    },
+    {
+      "provider": "claude",
+      "name": "Claude 3.7 Sonnet",
+      "chat_url": "https://claude.ai",
+      "login_url": "https://claude.ai/login",
+      "selectors": {
+        "input_box": "div[contenteditable='true']",
+        "send_button": "button[aria-label='Send Message']",
+        "stop_button": "button[aria-label='Stop']",
+        "new_chat_button": "button[aria-label='Start new chat']",
+        "last_message_container": ".font-user-message + .font-claude-message:last-child"
+      },
+      "logged_in": true,
+      "updated_at": "2026-11-12T09:58:31.991Z",
+      "notes": "Deep reasoning & analysis. URL ref: /chat/<conversation_id>"
+    },
+    {
+      "provider": "gemini",
+      "name": "Gemini 2.5 Flash / Pro",
+      "chat_url": "https://gemini.google.com/app",
+      "login_url": "https://accounts.google.com",
+      "selectors": {
+        "input_box": ".ql-editor",
+        "send_button": "button[aria-label='Send message']",
+        "stop_button": "button[aria-label='Stop generation']",
+        "new_chat_button": "button[aria-label='New chat']",
+        "last_message_container": ".response-container-content:last-child"
+      },
+      "logged_in": true,
+      "updated_at": "2026-11-12T09:58:31.991Z",
+      "notes": "Multimodal and broad general knowledge. URL ref: /app/<conversation_id>"
+    },
+    {
+      "provider": "grok",
+      "name": "Grok 3 (xAI)",
+      "chat_url": "https://grok.com",
+      "login_url": "https://grok.com/login",
+      "selectors": {
+        "input_box": "textarea[placeholder*='Ask Grok']",
+        "send_button": "button[type='submit']",
+        "stop_button": "button[aria-label='Stop']",
+        "new_chat_button": "button[aria-label='New Conversation']",
+        "last_message_container": ".message-bubble-assistant:last-child"
+      },
+      "logged_in": true,
+      "updated_at": "2026-11-12T09:58:31.991Z",
+      "notes": "Real-time perspective & counter-arguments. URL ref: /share/<ref>"
+    },
+    {
+      "provider": "deepseek",
+      "name": "DeepSeek R1 / V3",
+      "chat_url": "https://chat.deepseek.com",
+      "login_url": "https://chat.deepseek.com/sign_in",
+      "selectors": {
+        "input_box": "#chat-input",
+        "send_button": "button.send-btn",
+        "stop_button": "button.stop-btn",
+        "new_chat_button": "div.new-chat-btn",
+        "last_message_container": ".chat-message-assistant:last-child"
+      },
+      "logged_in": true,
+      "updated_at": "2026-11-12T09:58:31.991Z",
+      "notes": "Used for semantic compression & math/logic. URL ref: /c/<id>"
+    }
+  ]
+}
